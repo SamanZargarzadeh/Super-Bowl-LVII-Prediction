@@ -6,6 +6,12 @@ Developing and presenting a model for Super Bowl prediction by utilizing data cl
 
 The methodology for this project involves two main components: sport analysis and machine learning models. The sport analysis component includes an examination of historical matches between the Kansas City Chiefs and Philadelphia Eagles, a quarterbacks analysis, a look at the 2022 performance, and a review of previous Super Bowl scores. The machine learning models component includes three different models: the Split Model, which is a linear regression model based on the splitting of data into two groups; the Five-Year Model, which combines logistic and linear models based on the last five years of Super Bowls; and the Performance Model, which is a linear regression model based on ELO rating and team performance. The accuracy of each model is reported and discussed in the Results chapter.
 
+The dataset preparation was done using Python, while the machine learning models were developed using Alteryx. Both were uploaded to the this GitHub repository for easy access and reproducibility.
+
+
+
+
+
 ## Sport Analysis
 
     1. Historical Matches between chiefs and Eagles
@@ -56,5 +62,6 @@ Linear regression model based on ELO rating and team performance
 
 
 Team Name: Jadoo | Magic 
+
 Team Members: S. Zargarzadeh, S. Sidhwani, T. Ebrahimi, A. Arora
 
