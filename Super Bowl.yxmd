@@ -1,0 +1,2339 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2022.3">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="6" y="79" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\szargarz\Desktop\Super Bowl\AllTeam.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>AllTeam.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Team1" size="254" source="File: C:\Users\szargarz\Desktop\Super Bowl\AllTeam.csv" type="V_String" />
+            <Field name="Week" size="254" source="File: C:\Users\szargarz\Desktop\Super Bowl\AllTeam.csv" type="V_String" />
+            <Field name="Game Number" size="254" source="File: C:\Users\szargarz\Desktop\Super Bowl\AllTeam.csv" type="V_String" />
+            <Field name="Game Location" size="254" source="File: C:\Users\szargarz\Desktop\Super Bowl\AllTeam.csv" type="V_String" />
+            <Field name="Team2" size="254" source="File: C:\Users\szargarz\Desktop\Super Bowl\AllTeam.csv" type="V_String" />
+            <Field name="Team1_Score" size="254" source="File: C:\Users\szargarz\Desktop\Super Bowl\AllTeam.csv" type="V_String" />
+            <Field name="Team2_Score" size="254" source="File: C:\Users\szargarz\Desktop\Super Bowl\AllTeam.csv" type="V_String" />
+            <Field name="Team1_Passing" size="254" source="File: C:\Users\szargarz\Desktop\Super Bowl\AllTeam.csv" type="V_String" />
+            <Field name="Team1_Rushing" size="254" source="File: C:\Users\szargarz\Desktop\Super Bowl\AllTeam.csv" type="V_String" />
+            <Field name="Team1_Turnovers" size="254" source="File: C:\Users\szargarz\Desktop\Super Bowl\AllTeam.csv" type="V_String" />
+            <Field name="Team2_Passing" size="254" source="File: C:\Users\szargarz\Desktop\Super Bowl\AllTeam.csv" type="V_String" />
+            <Field name="Team2_Rushing" size="254" source="File: C:\Users\szargarz\Desktop\Super Bowl\AllTeam.csv" type="V_String" />
+            <Field name="Team2_Turnovers" size="254" source="File: C:\Users\szargarz\Desktop\Super Bowl\AllTeam.csv" type="V_String" />
+            <Field name="Abb1" size="254" source="File: C:\Users\szargarz\Desktop\Super Bowl\AllTeam.csv" type="V_String" />
+            <Field name="Abb2" size="254" source="File: C:\Users\szargarz\Desktop\Super Bowl\AllTeam.csv" type="V_String" />
+            <Field name="R_Team1_Score" size="254" source="File: C:\Users\szargarz\Desktop\Super Bowl\AllTeam.csv" type="V_String" />
+            <Field name="R_Team1_Passing" size="254" source="File: C:\Users\szargarz\Desktop\Super Bowl\AllTeam.csv" type="V_String" />
+            <Field name="R_Team1_Rushing" size="254" source="File: C:\Users\szargarz\Desktop\Super Bowl\AllTeam.csv" type="V_String" />
+            <Field name="R_Team1_Turnovers" size="254" source="File: C:\Users\szargarz\Desktop\Super Bowl\AllTeam.csv" type="V_String" />
+            <Field name="R_Team2_Score" size="254" source="File: C:\Users\szargarz\Desktop\Super Bowl\AllTeam.csv" type="V_String" />
+            <Field name="R_Team2_Passing" size="254" source="File: C:\Users\szargarz\Desktop\Super Bowl\AllTeam.csv" type="V_String" />
+            <Field name="R_Team2_Rushing" size="254" source="File: C:\Users\szargarz\Desktop\Super Bowl\AllTeam.csv" type="V_String" />
+            <Field name="R_Team2_Turnovers" size="254" source="File: C:\Users\szargarz\Desktop\Super Bowl\AllTeam.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="6" y="199" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\szargarz\Desktop\Super Bowl\elo_twice_edited.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>elo_twice_edited.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="date" size="254" source="File: C:\Users\szargarz\Desktop\Super Bowl\elo_twice_edited.csv" type="V_String" />
+            <Field name="season" size="254" source="File: C:\Users\szargarz\Desktop\Super Bowl\elo_twice_edited.csv" type="V_String" />
+            <Field name="neutral" size="254" source="File: C:\Users\szargarz\Desktop\Super Bowl\elo_twice_edited.csv" type="V_String" />
+            <Field name="playoff" size="254" source="File: C:\Users\szargarz\Desktop\Super Bowl\elo_twice_edited.csv" type="V_String" />
+            <Field name="team1" size="254" source="File: C:\Users\szargarz\Desktop\Super Bowl\elo_twice_edited.csv" type="V_String" />
+            <Field name="team2" size="254" source="File: C:\Users\szargarz\Desktop\Super Bowl\elo_twice_edited.csv" type="V_String" />
+            <Field name="elo1" size="254" source="File: C:\Users\szargarz\Desktop\Super Bowl\elo_twice_edited.csv" type="V_String" />
+            <Field name="elo2" size="254" source="File: C:\Users\szargarz\Desktop\Super Bowl\elo_twice_edited.csv" type="V_String" />
+            <Field name="elo_prob1" size="254" source="File: C:\Users\szargarz\Desktop\Super Bowl\elo_twice_edited.csv" type="V_String" />
+            <Field name="elo_prob2" size="254" source="File: C:\Users\szargarz\Desktop\Super Bowl\elo_twice_edited.csv" type="V_String" />
+            <Field name="qb1" size="254" source="File: C:\Users\szargarz\Desktop\Super Bowl\elo_twice_edited.csv" type="V_String" />
+            <Field name="qb2" size="254" source="File: C:\Users\szargarz\Desktop\Super Bowl\elo_twice_edited.csv" type="V_String" />
+            <Field name="qb1_value_pre" size="254" source="File: C:\Users\szargarz\Desktop\Super Bowl\elo_twice_edited.csv" type="V_String" />
+            <Field name="qb2_value_pre" size="254" source="File: C:\Users\szargarz\Desktop\Super Bowl\elo_twice_edited.csv" type="V_String" />
+            <Field name="qb1_adj" size="254" source="File: C:\Users\szargarz\Desktop\Super Bowl\elo_twice_edited.csv" type="V_String" />
+            <Field name="qb2_adj" size="254" source="File: C:\Users\szargarz\Desktop\Super Bowl\elo_twice_edited.csv" type="V_String" />
+            <Field name="qbelo_prob1" size="254" source="File: C:\Users\szargarz\Desktop\Super Bowl\elo_twice_edited.csv" type="V_String" />
+            <Field name="qbelo_prob2" size="254" source="File: C:\Users\szargarz\Desktop\Super Bowl\elo_twice_edited.csv" type="V_String" />
+            <Field name="score1" size="254" source="File: C:\Users\szargarz\Desktop\Super Bowl\elo_twice_edited.csv" type="V_String" />
+            <Field name="score2" size="254" source="File: C:\Users\szargarz\Desktop\Super Bowl\elo_twice_edited.csv" type="V_String" />
+            <Field name="quality" size="254" source="File: C:\Users\szargarz\Desktop\Super Bowl\elo_twice_edited.csv" type="V_String" />
+            <Field name="importance" size="254" source="File: C:\Users\szargarz\Desktop\Super Bowl\elo_twice_edited.csv" type="V_String" />
+            <Field name="total_rating" size="254" source="File: C:\Users\szargarz\Desktop\Super Bowl\elo_twice_edited.csv" type="V_String" />
+            <Field name="Week" size="254" source="File: C:\Users\szargarz\Desktop\Super Bowl\elo_twice_edited.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="114" y="139" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="Abb1" />
+            <Field field="Abb2" />
+            <Field field="Week" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="team1" />
+            <Field field="team2" />
+            <Field field="Week" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Right_team1" selected="True" rename="Right_team1" input="Right_" />
+                <SelectField field="Right_team2" selected="True" rename="Right_team2" input="Right_" />
+                <SelectField field="Right_Week" selected="True" rename="Right_Week" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="198" y="139" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Team1" selected="True" />
+            <SelectField field="Abb1" selected="True" />
+            <SelectField field="Team2" selected="True" />
+            <SelectField field="Abb2" selected="True" />
+            <SelectField field="Week" selected="True" type="Double" size="8" />
+            <SelectField field="Game Number" selected="False" />
+            <SelectField field="Game Location" selected="True" />
+            <SelectField field="Team1_Score" selected="False" />
+            <SelectField field="Team2_Score" selected="False" />
+            <SelectField field="Team1_Passing" selected="False" type="Double" size="8" />
+            <SelectField field="Team1_Rushing" selected="False" type="Double" size="8" />
+            <SelectField field="Team1_Turnovers" selected="False" type="Double" size="8" />
+            <SelectField field="Team2_Passing" selected="False" type="Double" size="8" />
+            <SelectField field="Team2_Rushing" selected="False" type="Double" size="8" />
+            <SelectField field="Team2_Turnovers" selected="False" type="Double" size="8" />
+            <SelectField field="R_Team1_Score" selected="True" type="Double" size="8" />
+            <SelectField field="R_Team1_Passing" selected="True" type="Double" size="8" />
+            <SelectField field="R_Team1_Rushing" selected="True" type="Double" size="8" />
+            <SelectField field="R_Team1_Turnovers" selected="True" type="Double" size="8" />
+            <SelectField field="R_Team2_Score" selected="True" type="Double" size="8" />
+            <SelectField field="R_Team2_Passing" selected="True" type="Double" size="8" />
+            <SelectField field="R_Team2_Rushing" selected="True" type="Double" size="8" />
+            <SelectField field="R_Team2_Turnovers" selected="True" type="Double" size="8" />
+            <SelectField field="date" selected="False" />
+            <SelectField field="season" selected="False" />
+            <SelectField field="neutral" selected="False" />
+            <SelectField field="playoff" selected="False" />
+            <SelectField field="Right_team1" selected="False" />
+            <SelectField field="Right_team2" selected="False" />
+            <SelectField field="elo1" selected="True" type="Double" size="8" />
+            <SelectField field="elo2" selected="True" type="Double" size="8" />
+            <SelectField field="elo_prob1" selected="True" type="Double" size="8" />
+            <SelectField field="elo_prob2" selected="True" type="Double" size="8" />
+            <SelectField field="qb1" selected="False" />
+            <SelectField field="qb2" selected="False" />
+            <SelectField field="qb1_value_pre" selected="True" type="Double" size="8" />
+            <SelectField field="qb2_value_pre" selected="True" type="Double" size="8" />
+            <SelectField field="qb1_adj" selected="True" type="Double" size="8" />
+            <SelectField field="qb2_adj" selected="True" type="Double" size="8" />
+            <SelectField field="qbelo_prob1" selected="True" type="Double" size="8" />
+            <SelectField field="qbelo_prob2" selected="True" type="Double" size="8" />
+            <SelectField field="quality" selected="True" type="Double" size="8" />
+            <SelectField field="importance" selected="True" type="Double" size="8" />
+            <SelectField field="total_rating" selected="True" type="Double" size="8" />
+            <SelectField field="Right_Week" selected="True" type="Double" size="8" />
+            <SelectField field="score1" selected="True" type="Double" size="8" />
+            <SelectField field="score2" selected="True" type="Double" size="8" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="270" y="139" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="if [Game Location]='AWAY' then 0 else 1 endif" field="Dummy Home" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[Dummy Home = if [Game Location]='AWAY' then 0 else 1 endif
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="414" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>IsNotNull</Operator>
+            <Field>R_Team2_Passing</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2023-02-03 15:38:04</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>
+              </Operand>
+              <StartDate>2023-02-03 15:38:04</StartDate>
+              <EndDate>2023-02-03 15:38:04</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>!IsNull([R_Team2_Passing])</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="342" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Team1" selected="True" />
+            <SelectField field="Abb1" selected="True" />
+            <SelectField field="Team2" selected="True" />
+            <SelectField field="Abb2" selected="True" />
+            <SelectField field="Week" selected="True" />
+            <SelectField field="Game Location" selected="False" />
+            <SelectField field="R_Team1_Score" selected="True" />
+            <SelectField field="R_Team1_Passing" selected="True" />
+            <SelectField field="R_Team1_Rushing" selected="True" />
+            <SelectField field="R_Team1_Turnovers" selected="True" />
+            <SelectField field="R_Team2_Score" selected="True" />
+            <SelectField field="R_Team2_Passing" selected="True" />
+            <SelectField field="R_Team2_Rushing" selected="True" />
+            <SelectField field="R_Team2_Turnovers" selected="True" />
+            <SelectField field="elo1" selected="True" />
+            <SelectField field="elo2" selected="True" />
+            <SelectField field="elo_prob1" selected="True" />
+            <SelectField field="elo_prob2" selected="True" />
+            <SelectField field="qb1_value_pre" selected="True" />
+            <SelectField field="qb2_value_pre" selected="True" />
+            <SelectField field="qb1_adj" selected="True" />
+            <SelectField field="qb2_adj" selected="True" />
+            <SelectField field="qbelo_prob1" selected="True" />
+            <SelectField field="qbelo_prob2" selected="True" />
+            <SelectField field="quality" selected="True" />
+            <SelectField field="importance" selected="True" />
+            <SelectField field="total_rating" selected="True" />
+            <SelectField field="Right_Week" selected="False" />
+            <SelectField field="Dummy Home" selected="True" type="Double" size="8" />
+            <SelectField field="score1" selected="True" />
+            <SelectField field="score2" selected="True" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="606" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="[R_Team1_Score]-[R_Team2_Score]" field="Dif AVG Score" size="8" type="Double" />
+            <FormulaField expression="[R_Team1_Passing]-[R_Team2_Passing]" field="Dif Pass" size="8" type="Double" />
+            <FormulaField expression="[R_Team1_Rushing]-[R_Team2_Rushing]" field="Dif Rush" size="8" type="Double" />
+            <FormulaField expression="[R_Team1_Turnovers]-[R_Team2_Turnovers]" field="Dif TO" size="8" type="Double" />
+            <FormulaField expression="[elo1]-[elo2]" field="Dif ELO" size="8" type="Double" />
+            <FormulaField expression="[elo_prob1]-[elo_prob2]" field="Dif Win Prob" size="8" type="Double" />
+            <FormulaField expression="[qb1_value_pre]-[qb2_value_pre]" field="Dif QB" size="8" type="Double" />
+            <FormulaField expression="[qb1_adj]-[qb2_adj]" field="Dif QB Adj" size="8" type="Double" />
+            <FormulaField expression="[qbelo_prob1]-[qbelo_prob2]" field="Dif QB Prob" size="8" type="Double" />
+            <FormulaField expression="[score1]-[score2]" field="Dif Result Score" size="8" type="Double" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Dif AVG Score = [R_Team1_Score]-[R_Team2_Score]
+Dif Pass = [R_Team1_Passing]-[R_...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="1374" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>!=</Operator>
+            <Field>Week</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2023-02-03 15:27:13</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>22</Operand>
+              <StartDate>2023-02-03 15:27:13</StartDate>
+              <EndDate>2023-02-03 15:27:13</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[Week] != 22</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="702" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="Dif AVG Score" action="Max" rename="Max_Dif AVG Score" />
+            <SummarizeField field="Dif AVG Score" action="Min" rename="Min_Dif AVG Score" />
+            <SummarizeField field="Dif Pass" action="Max" rename="Max_Dif Pass" />
+            <SummarizeField field="Dif Pass" action="Min" rename="Min_Dif Pass" />
+            <SummarizeField field="Dif Rush" action="Max" rename="Max_Dif Rush" />
+            <SummarizeField field="Dif Rush" action="Min" rename="Min_Dif Rush" />
+            <SummarizeField field="Dif TO" action="Max" rename="Max_Dif TO" />
+            <SummarizeField field="Dif TO" action="Min" rename="Min_Dif TO" />
+            <SummarizeField field="Dif ELO" action="Max" rename="Max_Dif ELO" />
+            <SummarizeField field="Dif ELO" action="Min" rename="Min_Dif ELO" />
+            <SummarizeField field="Dif Win Prob" action="Max" rename="Max_Dif Win Prob" />
+            <SummarizeField field="Dif Win Prob" action="Min" rename="Min_Dif Win Prob" />
+            <SummarizeField field="Dif QB" action="Max" rename="Max_Dif QB" />
+            <SummarizeField field="Dif QB" action="Min" rename="Min_Dif QB" />
+            <SummarizeField field="Dif QB Adj" action="Max" rename="Max_Dif QB Adj" />
+            <SummarizeField field="Dif QB Adj" action="Min" rename="Min_Dif QB Adj" />
+            <SummarizeField field="Dif QB Prob" action="Max" rename="Max_Dif QB Prob" />
+            <SummarizeField field="Dif QB Prob" action="Min" rename="Min_Dif QB Prob" />
+            <SummarizeField field="Dif Result Score" action="Max" rename="Max_Dif Result Score" />
+            <SummarizeField field="Dif Result Score" action="Min" rename="Min_Dif Result Score" />
+            <SummarizeField field="quality" action="Max" rename="Max_quality" />
+            <SummarizeField field="quality" action="Min" rename="Min_quality" />
+            <SummarizeField field="importance" action="Max" rename="Max_importance" />
+            <SummarizeField field="importance" action="Min" rename="Min_importance" />
+            <SummarizeField field="total_rating" action="Max" rename="Max_total_rating" />
+            <SummarizeField field="total_rating" action="Min" rename="Min_total_rating" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AppendFields.AppendFields">
+        <Position x="798" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <CartesianMode>Allow</CartesianMode>
+          <SelectConfiguration>
+            <Configuration outputConnection="Output">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAppendFields" />
+    </Node>
+    <Node ToolID="23">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="894" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="([Dif AVG Score]-[Min_Dif AVG Score])/([Max_Dif AVG Score]-[Min_Dif AVG Score])" field="Scaled Dif AVG Score" size="8" type="Double" />
+            <FormulaField expression="([Dif Pass]-[Min_Dif Pass])/([Max_Dif Pass]-[Min_Dif Pass])" field="Scaled Dif Pass" size="8" type="Double" />
+            <FormulaField expression="([Dif Rush]-[Min_Dif Rush])/([Max_Dif Rush]-[Min_Dif Rush])" field="Scaled Dif Rush" size="8" type="Double" />
+            <FormulaField expression="([Dif TO]-[Min_Dif TO])/([Max_Dif TO]-[Min_Dif TO])" field="Scaled Dif TO" size="8" type="Double" />
+            <FormulaField expression="([Dif ELO]-[Min_Dif ELO])/([Max_Dif ELO]-[Min_Dif ELO])" field="Scaled Dif ELO" size="8" type="Double" />
+            <FormulaField expression="([Dif Win Prob]-[Min_Dif Win Prob])/([Max_Dif Win Prob]-[Min_Dif Win Prob])" field="Scaled Dif Win Prob" size="8" type="Double" />
+            <FormulaField expression="([Dif QB]-[Min_Dif QB])/([Max_Dif QB]-[Min_Dif QB])" field="Scaled Dif QB" size="8" type="Double" />
+            <FormulaField expression="([Dif QB Adj]-[Min_Dif QB Adj])/([Max_Dif QB Adj]-[Min_Dif QB Adj])" field="Scaled Dif QB Adj" size="8" type="Double" />
+            <FormulaField expression="([Dif QB Prob]-[Min_Dif QB Prob])/([Max_Dif QB Prob]-[Min_Dif QB Prob])" field="Scaled Dif QB Prob" size="8" type="Double" />
+            <FormulaField expression="([Dif Result Score]-[Min_Dif Result Score])/([Max_Dif Result Score]-[Min_Dif Result Score])" field="Scaled Dif Result Score" size="8" type="Double" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Scaled Dif AVG Score = ([Dif AVG Score]-[Min_Dif AVG Score])/([Max_Dif AVG Score...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="28">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="990" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="([quality]-[Min_quality])/([Max_quality]-[Min_quality])" field="Scaled Quality" size="8" type="Double" />
+            <FormulaField expression="([importance]-[Min_importance])/([Max_importance]-[Min_importance])" field="Scaled importance" size="8" type="Double" />
+            <FormulaField expression="([total_rating]-[Min_total_rating])/([Max_total_rating]-[Min_total_rating])" field="Scaled total rating" size="8" type="Double" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Scaled Quality = ([quality]-[Min_quality])/([Max_quality]-[Min_quality])
+Scaled ...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="29">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1086" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Max_Dif AVG Score" selected="False" />
+            <SelectField field="Min_Dif AVG Score" selected="False" />
+            <SelectField field="Max_Dif Pass" selected="False" />
+            <SelectField field="Min_Dif Pass" selected="False" />
+            <SelectField field="Max_Dif Rush" selected="False" />
+            <SelectField field="Min_Dif Rush" selected="False" />
+            <SelectField field="Max_Dif TO" selected="False" />
+            <SelectField field="Min_Dif TO" selected="False" />
+            <SelectField field="Max_Dif ELO" selected="False" />
+            <SelectField field="Min_Dif ELO" selected="False" />
+            <SelectField field="Max_Dif Win Prob" selected="False" />
+            <SelectField field="Min_Dif Win Prob" selected="False" />
+            <SelectField field="Max_Dif QB" selected="False" />
+            <SelectField field="Min_Dif QB" selected="False" />
+            <SelectField field="Max_Dif QB Adj" selected="False" />
+            <SelectField field="Min_Dif QB Adj" selected="False" />
+            <SelectField field="Max_Dif QB Prob" selected="False" />
+            <SelectField field="Min_Dif QB Prob" selected="False" />
+            <SelectField field="Max_Dif Result Score" selected="False" />
+            <SelectField field="Min_Dif Result Score" selected="False" />
+            <SelectField field="Max_quality" selected="False" />
+            <SelectField field="Min_quality" selected="False" />
+            <SelectField field="Max_importance" selected="False" />
+            <SelectField field="Min_importance" selected="False" />
+            <SelectField field="Max_total_rating" selected="False" />
+            <SelectField field="Min_total_rating" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="31">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MultiFieldFormula.MultiFieldFormula">
+        <Position x="1182" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldType>Numeric</FieldType>
+          <Fields orderChanged="False">
+            <Field name="R_Team1_Score" />
+            <Field name="R_Team1_Passing" />
+            <Field name="R_Team1_Rushing" />
+            <Field name="R_Team1_Turnovers" />
+            <Field name="R_Team2_Score" />
+            <Field name="R_Team2_Passing" />
+            <Field name="R_Team2_Rushing" />
+            <Field name="R_Team2_Turnovers" />
+            <Field name="elo1" />
+            <Field name="elo2" />
+            <Field name="elo_prob1" />
+            <Field name="elo_prob2" />
+            <Field name="qb1_value_pre" />
+            <Field name="qb2_value_pre" />
+            <Field name="qb1_adj" />
+            <Field name="qb2_adj" />
+            <Field name="qbelo_prob1" />
+            <Field name="qbelo_prob2" />
+            <Field name="quality" />
+            <Field name="importance" />
+            <Field name="total_rating" />
+            <Field name="score1" />
+            <Field name="score2" />
+            <Field name="SUM R Score" />
+            <Field name="SUM R Pass" />
+            <Field name="SUM R Rush" />
+            <Field name="SUM R TO" />
+            <Field name="Scaled Dif AVG Score" />
+            <Field name="Scaled Dif Pass" />
+            <Field name="Scaled Dif Rush" />
+            <Field name="Scaled Dif TO" />
+            <Field name="Scaled Dif ELO" />
+            <Field name="Scaled Dif Win Prob" />
+            <Field name="Scaled Dif QB" />
+            <Field name="Scaled Dif QB Adj" />
+            <Field name="Scaled Dif QB Prob" />
+            <Field name="Scaled Dif Result Score" />
+            <Field name="Scaled Quality" />
+            <Field name="Scaled importance" />
+            <Field name="Scaled total rating" />
+            <Field name="Week" selected="False" />
+            <Field name="Dummy Home" selected="False" />
+            <Field name="Dif AVG Score" selected="False" />
+            <Field name="Dif Pass" selected="False" />
+            <Field name="Dif Rush" selected="False" />
+            <Field name="Dif TO" selected="False" />
+            <Field name="Dif ELO" selected="False" />
+            <Field name="Dif Win Prob" selected="False" />
+            <Field name="Dif QB" selected="False" />
+            <Field name="Dif QB Adj" selected="False" />
+            <Field name="Dif QB Prob" selected="False" />
+            <Field name="Dif Result Score" selected="False" />
+            <Field name="*Unknown" selected="False" />
+          </Fields>
+          <NewFieldAddOn>Log_</NewFieldAddOn>
+          <NewFieldAddOnPos>Prefix</NewFieldAddOnPos>
+          <CopyOutput value="True" />
+          <Expression>log(([_CurrentField_]))</Expression>
+          <ChangeFieldType value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>log(([_CurrentField_]))</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiFieldFormula" />
+    </Node>
+    <Node ToolID="54">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="1278" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="if (([score1]-[score2])&gt;0) then 1 else 0 endif" field="Dummy Win" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[Dummy Win = if (([score1]-[score2])>0) then 1 else 0 endif
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="60">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="510" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="[R_Team1_Score]+[R_Team2_Score]" field="SUM R Score" size="8" type="Double" />
+            <FormulaField expression="[R_Team1_Passing]+[R_Team2_Passing]" field="SUM R Pass" size="8" type="Double" />
+            <FormulaField expression="[R_Team1_Rushing]+[R_Team2_Rushing]" field="SUM R Rush" size="8" type="Double" />
+            <FormulaField expression="[R_Team1_Turnovers]+[R_Team2_Turnovers]" field="SUM R TO" size="8" type="Double" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>SUM R Score = [R_Team1_Score]+[R_Team2_Score]
+SUM R Pass = [R_Team1_Passing]+[R_...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="67">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.PearsonCorrelation.PearsonCorrelation">
+        <Position x="1362" y="294" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields orderChanged="False">
+            <Field name="Week" />
+            <Field name="R_Team1_Score" />
+            <Field name="R_Team1_Passing" />
+            <Field name="R_Team1_Rushing" />
+            <Field name="R_Team1_Turnovers" />
+            <Field name="R_Team2_Score" />
+            <Field name="R_Team2_Passing" />
+            <Field name="R_Team2_Rushing" />
+            <Field name="R_Team2_Turnovers" />
+            <Field name="elo1" />
+            <Field name="elo2" />
+            <Field name="elo_prob1" />
+            <Field name="elo_prob2" />
+            <Field name="qb1_value_pre" />
+            <Field name="qb2_value_pre" />
+            <Field name="qb1_adj" />
+            <Field name="qb2_adj" />
+            <Field name="qbelo_prob1" />
+            <Field name="qbelo_prob2" />
+            <Field name="quality" />
+            <Field name="importance" />
+            <Field name="total_rating" />
+            <Field name="Dummy Home" />
+            <Field name="score1" />
+            <Field name="score2" />
+            <Field name="SUM R Score" />
+            <Field name="SUM R Pass" />
+            <Field name="SUM R Rush" />
+            <Field name="SUM R TO" />
+            <Field name="Dif AVG Score" />
+            <Field name="Dif Pass" />
+            <Field name="Dif Rush" />
+            <Field name="Dif TO" />
+            <Field name="Dif ELO" />
+            <Field name="Dif Win Prob" />
+            <Field name="Dif QB" />
+            <Field name="Dif QB Adj" />
+            <Field name="Dif QB Prob" />
+            <Field name="Dif Result Score" />
+            <Field name="Scaled Dif AVG Score" />
+            <Field name="Scaled Dif Pass" />
+            <Field name="Scaled Dif Rush" />
+            <Field name="Scaled Dif TO" />
+            <Field name="Scaled Dif ELO" />
+            <Field name="Scaled Dif Win Prob" />
+            <Field name="Scaled Dif QB" />
+            <Field name="Scaled Dif QB Adj" />
+            <Field name="Scaled Dif QB Prob" />
+            <Field name="Scaled Dif Result Score" />
+            <Field name="Scaled Quality" />
+            <Field name="Scaled importance" />
+            <Field name="Scaled total rating" />
+            <Field name="Log_R_Team1_Score" />
+            <Field name="Log_R_Team1_Passing" />
+            <Field name="Log_R_Team1_Rushing" />
+            <Field name="Log_R_Team1_Turnovers" />
+            <Field name="Log_R_Team2_Score" />
+            <Field name="Log_R_Team2_Passing" />
+            <Field name="Log_R_Team2_Rushing" />
+            <Field name="Log_R_Team2_Turnovers" />
+            <Field name="Log_elo1" />
+            <Field name="Log_elo2" />
+            <Field name="Log_elo_prob1" />
+            <Field name="Log_elo_prob2" />
+            <Field name="Log_qb1_value_pre" />
+            <Field name="Log_qb2_value_pre" />
+            <Field name="Log_qb1_adj" />
+            <Field name="Log_qb2_adj" />
+            <Field name="Log_qbelo_prob1" />
+            <Field name="Log_qbelo_prob2" />
+            <Field name="Log_quality" />
+            <Field name="Log_importance" />
+            <Field name="Log_total_rating" />
+            <Field name="Log_score1" />
+            <Field name="Log_score2" />
+            <Field name="Log_SUM R Score" />
+            <Field name="Log_SUM R Pass" />
+            <Field name="Log_SUM R Rush" />
+            <Field name="Log_SUM R TO" />
+            <Field name="Log_Scaled Dif AVG Score" />
+            <Field name="Log_Scaled Dif Pass" />
+            <Field name="Log_Scaled Dif Rush" />
+            <Field name="Log_Scaled Dif TO" />
+            <Field name="Log_Scaled Dif ELO" />
+            <Field name="Log_Scaled Dif Win Prob" />
+            <Field name="Log_Scaled Dif QB" />
+            <Field name="Log_Scaled Dif QB Adj" />
+            <Field name="Log_Scaled Dif QB Prob" />
+            <Field name="Log_Scaled Dif Result Score" />
+            <Field name="Log_Scaled Quality" />
+            <Field name="Log_Scaled importance" />
+            <Field name="Log_Scaled total rating" />
+            <Field name="*Unknown" />
+            <Field name="Years of education" selected="False" />
+            <Field name="Years at current job" selected="False" />
+          </Fields>
+          <Covariance value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxPearsonCorrelation" />
+    </Node>
+    <Node ToolID="70">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1434" y="294" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+          <TempFile>C:\Users\szargarz\AppData\Local\Temp\Engine_1836_b26f1e25912f184fb41a259f5d3095fc_\Engine_1836_3ca20bb94b9efd428846a7e8216a4a70~.yxdb</TempFile>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="71">
+      <GuiSettings>
+        <Position x="1770" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="New Model" />
+          <Value name="both">True</Value>
+          <Value name="backward">False</Value>
+          <Value name="AIC">True</Value>
+          <Value name="BIC">False</Value>
+          <Value name="graph.resolution">1x</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\Stepwise.yxmc" />
+    </Node>
+    <Node ToolID="73">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1902" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\szargarz\AppData\Local\Temp\Engine_1836_b26f1e25912f184fb41a259f5d3095fc_\Engine_1836_d5d946cac6f152458c77d3aed4aec1d5~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="74">
+      <GuiSettings Plugin="Score">
+        <Position x="1890" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="modelChoice">Local Model</Value>
+          <Value name="score field">
+          </Value>
+          <Value name="is oversampled">False</Value>
+          <Value name="oversampled value">
+          </Value>
+          <Value name="original percent">2</Value>
+          <Value name="log y">True</Value>
+          <Value name="prediction.interval">True</Value>
+          <Value name="interval.level">95</Value>
+          <Value name="append.xdf">False</Value>
+          <Value name="num.records">256000</Value>
+          <Value name="credentials">
+          </Value>
+          <Value name="models">
+          </Value>
+          <Value name="page">
+          </Value>
+          <Value name="errorStatus">
+          </Value>
+          <Value name="modelDetailJSON">
+          </Value>
+          <Value name="modelDetails">{"Name":"","Owner":"","Status":"","Id":"","LastDeployment":"","LastUpdated":"","LatestVersion":"","ActiveVersion":"","NumReplications":"","NumVersions":""}</Value>
+          <Value name="promoteURL">
+          </Value>
+          <Value name="username">
+          </Value>
+          <Value name="model_name">
+          </Value>
+          <Value name="model_owner">
+          </Value>
+          <Value name="apiKey">
+          </Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Score\Supporting_Macros\score-engine.yxmc" EngineDll="Macro" EngineDllEntryPoint="Score\Supporting_Macros\score-engine.yxmc" />
+    </Node>
+    <Node ToolID="75">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1974" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\szargarz\AppData\Local\Temp\Engine_1836_b26f1e25912f184fb41a259f5d3095fc_\Engine_1836_9aeef47c79d06649b9e926ba7ad89a9d~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="76">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="1974" y="210" width="136" height="40" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Final Result
+chiefs 27 - 19 Eagles</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor r="198" g="255" b="255" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="59">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="1506" y="126" width="156" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Other models</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="True" />
+          <Folded value="True" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="38">
+          <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+            <Position x="1878" y="330" width="201" height="24" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Caption>Random Forest scaled</Caption>
+              <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+              <Disabled value="True" />
+              <Folded value="True" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <ChildNodes>
+            <Node ToolID="36">
+              <GuiSettings>
+                <Position x="1878" y="378" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <Value name="Model Name">Scaled forest</Value>
+                  <Value name="Y Var">Scaled Dif Result Score</Value>
+                  <Value name="X Vars">Scaled Dif AVG Score + Scaled Dif Pass + Scaled Dif Rush + Scaled Dif TO + Scaled Dif ELO + Scaled Dif Win Prob + Scaled Dif QB + Scaled Dif QB Adj + Scaled Dif QB Prob + Scaled Dif Result Score + Scaled Quality + Scaled importance + Scaled total rating</Value>
+                  <Value name="Num Trees">500</Value>
+                  <Value name="Custom Num Vars">False</Value>
+                  <Value name="Num Vars">3</Value>
+                  <Value name="model.size">False</Value>
+                  <Value name="total.nodes">100</Value>
+                  <Value name="max.depth">10</Value>
+                  <Value name="node.size">5</Value>
+                  <Value name="replace">True</Value>
+                  <Value name="samp.rate">100</Value>
+                  <Value name="inches">True</Value>
+                  <Value name="in.w">5.50</Value>
+                  <Value name="in.h">5.50</Value>
+                  <Value name="centimeters">False</Value>
+                  <Value name="cm.w">13.00</Value>
+                  <Value name="cm.h">14.95</Value>
+                  <Value name="graph.resolution">1x</Value>
+                  <Value name="pointsize">10</Value>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings Macro="Predictive Tools\Forest_Model.yxmc" />
+            </Node>
+            <Node ToolID="37">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+                <Position x="1974" y="390" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <TempFile>C:\Users\szargarz\AppData\Local\Temp\Engine_6020_a10bbbd76bfc8446b9b2997648fa67d1_\Engine_6020_561bf74b1173c549a7e6e03a663c6f01~.yxdb</TempFile>
+                  <TempFileDataProfiling />
+                  <Layout>
+                    <ViewMode>Single</ViewMode>
+                    <ViewSize value="100" />
+                    <View1>
+                      <DefaultTab>Report</DefaultTab>
+                      <Hints>
+                        <Table />
+                      </Hints>
+                    </View1>
+                    <View2 />
+                  </Layout>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+            </Node>
+          </ChildNodes>
+        </Node>
+        <Node ToolID="35">
+          <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+            <Position x="1710" y="282" width="153" height="24" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Caption>Linear Scaled</Caption>
+              <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+              <Disabled value="True" />
+              <Folded value="True" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <ChildNodes>
+            <Node ToolID="32">
+              <GuiSettings Plugin="Linear_Regression">
+                <Position x="1734" y="330" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <Value name="curPage">Home</Value>
+                  <Value name="curTab">advanced</Value>
+                  <Value name="standardize_pred">True</Value>
+                  <Value name="internal_cv">True</Value>
+                  <Value name="display_graphs">True</Value>
+                  <Value name="set_seed_internal_cv">True</Value>
+                  <Value name="set_seed_external_cv">True</Value>
+                  <Value name="lambda_1se">True</Value>
+                  <Value name="lambda_min">False</Value>
+                  <Value name="Model Name">Linear_Regression_8</Value>
+                  <Value name="Y Var">Log_Scaled Dif Result Score</Value>
+                  <Value name="X Vars">Dummy Home,Log_Scaled Dif AVG Score,Log_Scaled Dif Pass,Log_Scaled Dif Rush,Log_Scaled Dif TO,Log_Scaled Dif ELO,Log_Scaled Dif Win Prob,Log_Scaled Dif QB,Log_Scaled Dif QB Adj,Log_Scaled Dif QB Prob,Log_Scaled Quality,Log_Scaled importance,Log_Scaled total rating</Value>
+                  <Value name="Omit Constant">False</Value>
+                  <Value name="Use Weights">False</Value>
+                  <Value name="Weight Vec" />
+                  <Value name="regularization">False</Value>
+                  <Value name="alpha">0.5</Value>
+                  <Value name="nfolds">5</Value>
+                  <Value name="lambda">lambda_1se</Value>
+                  <Value name="seed_internal_cv">1</Value>
+                  <Value name="lambda_no_cv">0.5</Value>
+                  <Value name="external_cv">False</Value>
+                  <Value name="nfolds_external">5</Value>
+                  <Value name="numberTrials">3</Value>
+                  <Value name="external_seed_value">1</Value>
+                  <Value name="graph.resolution">1x</Value>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText>Linear_Regression_8</DefaultAnnotationText>
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings Macro="Linear_Regression/Supporting_Macros/Linear_Regression.yxmc" EngineDll="Macro" EngineDllEntryPoint="Linear_Regression/Supporting_Macros/Linear_Regression.yxmc" />
+            </Node>
+            <Node ToolID="33">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+                <Position x="1830" y="330" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <TempFile>C:\Users\szargarz\AppData\Local\Temp\Engine_1504_f64d98d1a4e35e4798ec7a07c263a957_\Engine_1504_a81b91e2c8c3f24eb4717bde4c130224~.yxdb</TempFile>
+                  <TempFileDataProfiling />
+                  <Layout>
+                    <ViewMode>Single</ViewMode>
+                    <ViewSize value="100" />
+                    <View1>
+                      <DefaultTab>Report</DefaultTab>
+                      <Hints>
+                        <Table />
+                      </Hints>
+                    </View1>
+                    <View2 />
+                  </Layout>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+            </Node>
+            <Node ToolID="34">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+                <Position x="1830" y="390" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <TempFile>C:\Users\szargarz\AppData\Local\Temp\Engine_1504_f64d98d1a4e35e4798ec7a07c263a957_\Engine_1504_81c9cc256b1f5a47815c328e1b4680bc~.yxdb</TempFile>
+                  <TempFileDataProfiling />
+                  <Layout>
+                    <ViewMode>Single</ViewMode>
+                    <ViewSize value="100" />
+                    <View1>
+                      <DefaultTab>Report</DefaultTab>
+                      <Hints>
+                        <Table />
+                      </Hints>
+                    </View1>
+                    <View2 />
+                  </Layout>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+            </Node>
+          </ChildNodes>
+        </Node>
+        <Node ToolID="53">
+          <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+            <Position x="1722" y="258" width="100" height="24" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Caption>NN</Caption>
+              <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+              <Disabled value="True" />
+              <Folded value="True" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <ChildNodes>
+            <Node ToolID="51">
+              <GuiSettings>
+                <Position x="1746" y="306" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <Value name="model.name">raw model</Value>
+                  <Value name="select.target">Log_score1</Value>
+                  <Value name="select.predictors">Team1=False,Abb1=False,Team2=False,Abb2=False,Week=False,R_Team1_Score=False,R_Team1_Passing=False,R_Team1_Rushing=False,R_Team1_Turnovers=False,R_Team2_Score=False,R_Team2_Passing=False,R_Team2_Rushing=False,R_Team2_Turnovers=False,elo1=False,elo2=False,elo_prob1=False,elo_prob2=False,qb1_value_pre=False,qb2_value_pre=False,qb1_adj=False,qb2_adj=False,qbelo_prob1=False,qbelo_prob2=False,quality=False,importance=False,total_rating=False,Dummy Home=False,score1=False,score2=False,Dif AVG Score=False,Dif Pass=False,Dif Rush=False,Dif TO=False,Dif ELO=False,Dif Win Prob=False,Dif QB=False,Dif QB Adj=False,Dif QB Prob=False,Dif Result Score=False,Scaled Dif AVG Score=False,Scaled Dif Pass=False,Scaled Dif Rush=False,Scaled Dif TO=False,Scaled Dif ELO=False,Scaled Dif Win Prob=False,Scaled Dif QB=False,Scaled Dif QB Adj=False,Scaled Dif QB Prob=False,Scaled Dif Result Score=False,Scaled Quality=False,Scaled importance=False,Scaled total rating=False,Log_R_Team1_Score=True,Log_R_Team1_Passing=True,Log_R_Team1_Rushing=True,Log_R_Team1_Turnovers=True,Log_R_Team2_Score=True,Log_R_Team2_Passing=True,Log_R_Team2_Rushing=True,Log_R_Team2_Turnovers=True,Log_elo1=True,Log_elo2=True,Log_elo_prob1=True,Log_elo_prob2=True,Log_qb1_value_pre=True,Log_qb2_value_pre=True,Log_qb1_adj=True,Log_qb2_adj=True,Log_qbelo_prob1=True,Log_qbelo_prob2=True,Log_quality=True,Log_importance=True,Log_total_rating=True,Log_score1=False,Log_score2=False,Log_Scaled Dif AVG Score=False,Log_Scaled Dif Pass=False,Log_Scaled Dif Rush=False,Log_Scaled Dif TO=False,Log_Scaled Dif ELO=False,Log_Scaled Dif Win Prob=False,Log_Scaled Dif QB=False,Log_Scaled Dif QB Adj=False,Log_Scaled Dif QB Prob=False,Log_Scaled Dif Result Score=False,Log_Scaled Quality=False,Log_Scaled importance=False,Log_Scaled total rating=False</Value>
+                  <Value name="use.weights">False</Value>
+                  <Value name="select.weights">Week</Value>
+                  <Value name="num.nodes">10</Value>
+                  <Value name="marginal.plots">True</Value>
+                  <Value name="custom.scaling">False</Value>
+                  <Value name="scale.type">z-score</Value>
+                  <Value name="decay">0.100</Value>
+                  <Value name="range">0.700</Value>
+                  <Value name="max.wts">1000</Value>
+                  <Value name="max.iter">100</Value>
+                  <Value name="inches">True</Value>
+                  <Value name="in.w">5.50</Value>
+                  <Value name="in.h">5.50</Value>
+                  <Value name="centimeters">False</Value>
+                  <Value name="cm.w">13.00</Value>
+                  <Value name="cm.h">14.95</Value>
+                  <Value name="graph.resolution">1x</Value>
+                  <Value name="pointsize">10</Value>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings Macro="Predictive Tools\Neural_Network.yxmc" />
+            </Node>
+            <Node ToolID="52">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+                <Position x="1854" y="318" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <TempFile>C:\Users\szargarz\AppData\Local\Temp\Engine_2020_85ee73a1314e374cbd13229a6dab28e0_\Engine_2020_ac1d6b5d4d2cd84e987956ee65408b02~.yxdb</TempFile>
+                  <TempFileDataProfiling />
+                  <Layout>
+                    <ViewMode>Single</ViewMode>
+                    <ViewSize value="100" />
+                    <View1>
+                      <DefaultTab>Report</DefaultTab>
+                      <Hints>
+                        <Table />
+                      </Hints>
+                    </View1>
+                    <View2 />
+                  </Layout>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+            </Node>
+          </ChildNodes>
+        </Node>
+        <Node ToolID="58">
+          <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+            <Position x="1722" y="270" width="124" height="24" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Caption>Logistic</Caption>
+              <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+              <Disabled value="True" />
+              <Folded value="True" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <ChildNodes>
+            <Node ToolID="55">
+              <GuiSettings Plugin="Logistic_Regression">
+                <Position x="1746" y="318" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <Value name="curPage">Home</Value>
+                  <Value name="curTab">advanced</Value>
+                  <Value name="lambda_1se">True</Value>
+                  <Value name="lambda_min">False</Value>
+                  <Value name="Model Name">Logistic_Regression_55</Value>
+                  <Value name="Y Var">Dummy Win</Value>
+                  <Value name="X Vars">Dummy Home,Log_R_Team1_Score,Log_R_Team1_Passing,Log_R_Team1_Rushing,Log_R_Team1_Turnovers,Log_R_Team2_Score,Log_R_Team2_Passing,Log_R_Team2_Rushing,Log_R_Team2_Turnovers,Log_elo1,Log_elo2,Log_elo_prob1,Log_elo_prob2,Log_qb1_value_pre,Log_qb2_value_pre,Log_qb1_adj,Log_qb2_adj,Log_qbelo_prob1,Log_qbelo_prob2,Log_quality,Log_importance,Log_total_rating</Value>
+                  <Value name="Use Weights">False</Value>
+                  <Value name="Weight Vec" />
+                  <Value name="regularization">False</Value>
+                  <Value name="alpha">0.5</Value>
+                  <Value name="standardize_pred">False</Value>
+                  <Value name="internal_cv">False</Value>
+                  <Value name="nfolds">5</Value>
+                  <Value name="lambda">lambda_1se</Value>
+                  <Value name="set_seed_internal_cv">False</Value>
+                  <Value name="seed_internal_cv">1</Value>
+                  <Value name="lambda_no_cv">0.5</Value>
+                  <Value name="posClass">
+                  </Value>
+                  <Value name="Link">logit</Value>
+                  <Value name="external_cv">False</Value>
+                  <Value name="nfolds_external">5</Value>
+                  <Value name="numberTrials">3</Value>
+                  <Value name="stratified">False</Value>
+                  <Value name="set_seed_external_cv">False</Value>
+                  <Value name="external_seed_value">1</Value>
+                  <Value name="graph.resolution">1x</Value>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText>Logistic_Regression_55</DefaultAnnotationText>
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings Macro="Logistic_Regression/Supporting_Macros/Logistic_Regression.yxmc" EngineDll="Macro" EngineDllEntryPoint="Logistic_Regression/Supporting_Macros/Logistic_Regression.yxmc" />
+            </Node>
+            <Node ToolID="56">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+                <Position x="1890" y="378" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <TempFile>C:\Users\szargarz\AppData\Local\Temp\Engine_7100_ce7b272b30a6514b95af96301be9bfa3_\Engine_7100_ca3e4ed8a412fd47af007ccc86d7e2ce~.yxdb</TempFile>
+                  <TempFileDataProfiling />
+                  <Layout>
+                    <ViewMode>Single</ViewMode>
+                    <ViewSize value="100" />
+                    <View1>
+                      <DefaultTab>Report</DefaultTab>
+                      <Hints>
+                        <Table />
+                      </Hints>
+                    </View1>
+                    <View2 />
+                  </Layout>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+            </Node>
+            <Node ToolID="57">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+                <Position x="1842" y="318" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <TempFile>C:\Users\szargarz\AppData\Local\Temp\Engine_7100_ce7b272b30a6514b95af96301be9bfa3_\Engine_7100_504c27be284f784f9cc3d53bd610fc50~.yxdb</TempFile>
+                  <TempFileDataProfiling />
+                  <Layout>
+                    <ViewMode>Single</ViewMode>
+                    <ViewSize value="100" />
+                    <View1>
+                      <DefaultTab>Report</DefaultTab>
+                      <Hints>
+                        <Table />
+                      </Hints>
+                    </View1>
+                    <View2 />
+                  </Layout>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+            </Node>
+          </ChildNodes>
+        </Node>
+        <Node ToolID="47">
+          <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+            <Position x="1878" y="246" width="185" height="24" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Caption>Random Forest log</Caption>
+              <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+              <Disabled value="True" />
+              <Folded value="True" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <ChildNodes>
+            <Node ToolID="45">
+              <GuiSettings>
+                <Position x="1878" y="294" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <Value name="Model Name">log forest</Value>
+                  <Value name="Y Var">Log_score1</Value>
+                  <Value name="X Vars">Dummy Home + Log_R_Team1_Score + Log_R_Team1_Passing + Log_R_Team1_Rushing + Log_R_Team1_Turnovers + Log_R_Team2_Score + Log_R_Team2_Passing + Log_R_Team2_Rushing + Log_R_Team2_Turnovers + Log_elo1 + Log_elo2 + Log_elo_prob1 + Log_elo_prob2 + Log_qb1_value_pre + Log_qb2_value_pre + Log_qb1_adj + Log_qb2_adj + Log_qbelo_prob1 + Log_qbelo_prob2 + Log_quality + Log_importance + Log_total_rating</Value>
+                  <Value name="Num Trees">500</Value>
+                  <Value name="Custom Num Vars">False</Value>
+                  <Value name="Num Vars">3</Value>
+                  <Value name="model.size">False</Value>
+                  <Value name="total.nodes">100</Value>
+                  <Value name="max.depth">10</Value>
+                  <Value name="node.size">5</Value>
+                  <Value name="replace">True</Value>
+                  <Value name="samp.rate">100</Value>
+                  <Value name="inches">True</Value>
+                  <Value name="in.w">5.50</Value>
+                  <Value name="in.h">5.50</Value>
+                  <Value name="centimeters">False</Value>
+                  <Value name="cm.w">13.00</Value>
+                  <Value name="cm.h">14.95</Value>
+                  <Value name="graph.resolution">1x</Value>
+                  <Value name="pointsize">10</Value>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings Macro="Predictive Tools\Forest_Model.yxmc" />
+            </Node>
+            <Node ToolID="46">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+                <Position x="1974" y="306" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <TempFile>C:\Users\szargarz\AppData\Local\Temp\Engine_2108_3fb92a1075fe3c40b6dfe28dc0f19060_\Engine_2108_a24e4f2ca7d551409182d6bf1834c8cc~.yxdb</TempFile>
+                  <TempFileDataProfiling />
+                  <Layout>
+                    <ViewMode>Single</ViewMode>
+                    <ViewSize value="100" />
+                    <View1>
+                      <DefaultTab>Report</DefaultTab>
+                      <Hints>
+                        <Table />
+                      </Hints>
+                    </View1>
+                    <View2 />
+                  </Layout>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+            </Node>
+          </ChildNodes>
+        </Node>
+        <Node ToolID="27">
+          <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+            <Position x="1530" y="198" width="153" height="24" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Caption>Linear Scaled</Caption>
+              <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+              <Disabled value="True" />
+              <Folded value="True" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <ChildNodes>
+            <Node ToolID="24">
+              <GuiSettings Plugin="Linear_Regression">
+                <Position x="1710" y="246" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <Value name="curPage">Home</Value>
+                  <Value name="curTab">advanced</Value>
+                  <Value name="standardize_pred">True</Value>
+                  <Value name="internal_cv">True</Value>
+                  <Value name="display_graphs">True</Value>
+                  <Value name="set_seed_internal_cv">True</Value>
+                  <Value name="set_seed_external_cv">True</Value>
+                  <Value name="lambda_1se">True</Value>
+                  <Value name="lambda_min">False</Value>
+                  <Value name="Model Name">Linear_Regression_8</Value>
+                  <Value name="Y Var">Scaled Dif Result Score</Value>
+                  <Value name="X Vars">Dummy Home,Scaled Dif AVG Score,Scaled Dif Pass,Scaled Dif Rush,Scaled Dif TO,Scaled Dif ELO,Scaled Dif Win Prob,Scaled Dif QB,Scaled Dif QB Adj,Scaled Dif QB Prob,Scaled Quality,Scaled importance,Scaled total rating</Value>
+                  <Value name="Omit Constant">False</Value>
+                  <Value name="Use Weights">False</Value>
+                  <Value name="Weight Vec" />
+                  <Value name="regularization">False</Value>
+                  <Value name="alpha">0.5</Value>
+                  <Value name="nfolds">5</Value>
+                  <Value name="lambda">lambda_1se</Value>
+                  <Value name="seed_internal_cv">1</Value>
+                  <Value name="lambda_no_cv">0.5</Value>
+                  <Value name="external_cv">False</Value>
+                  <Value name="nfolds_external">5</Value>
+                  <Value name="numberTrials">3</Value>
+                  <Value name="external_seed_value">1</Value>
+                  <Value name="graph.resolution">1x</Value>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText>Linear_Regression_8</DefaultAnnotationText>
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings Macro="Linear_Regression/Supporting_Macros/Linear_Regression.yxmc" EngineDll="Macro" EngineDllEntryPoint="Linear_Regression/Supporting_Macros/Linear_Regression.yxmc" />
+            </Node>
+            <Node ToolID="25">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+                <Position x="1806" y="246" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <TempFile>C:\Users\szargarz\AppData\Local\Temp\Engine_8176_11406617facdf44aa597385a55463d99_\Engine_8176_0138275951bb0d4797e0bfb80b117a00~.yxdb</TempFile>
+                  <TempFileDataProfiling />
+                  <Layout>
+                    <ViewMode>Single</ViewMode>
+                    <ViewSize value="100" />
+                    <View1>
+                      <DefaultTab>Report</DefaultTab>
+                      <Hints>
+                        <Table />
+                      </Hints>
+                    </View1>
+                    <View2 />
+                  </Layout>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+            </Node>
+            <Node ToolID="26">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+                <Position x="1806" y="306" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <TempFile>C:\Users\szargarz\AppData\Local\Temp\Engine_8176_11406617facdf44aa597385a55463d99_\Engine_8176_373efc87ead6ec4daeb5257bc322c043~.yxdb</TempFile>
+                  <TempFileDataProfiling />
+                  <Layout>
+                    <ViewMode>Single</ViewMode>
+                    <ViewSize value="100" />
+                    <View1>
+                      <DefaultTab>Report</DefaultTab>
+                      <Hints>
+                        <Table />
+                      </Hints>
+                    </View1>
+                    <View2 />
+                  </Layout>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+            </Node>
+          </ChildNodes>
+        </Node>
+        <Node ToolID="16">
+          <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+            <Position x="1530" y="174" width="134" height="24" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Caption>Linear Dif</Caption>
+              <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+              <Disabled value="True" />
+              <Folded value="True" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <ChildNodes>
+            <Node ToolID="8">
+              <GuiSettings Plugin="Linear_Regression">
+                <Position x="1710" y="222" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <Value name="curPage">Home</Value>
+                  <Value name="curTab">advanced</Value>
+                  <Value name="standardize_pred">True</Value>
+                  <Value name="internal_cv">True</Value>
+                  <Value name="display_graphs">True</Value>
+                  <Value name="set_seed_internal_cv">True</Value>
+                  <Value name="set_seed_external_cv">True</Value>
+                  <Value name="lambda_1se">True</Value>
+                  <Value name="lambda_min">False</Value>
+                  <Value name="Model Name">Linear_Regression_8</Value>
+                  <Value name="Y Var">Dif Result Score</Value>
+                  <Value name="X Vars">quality,importance,total_rating,Dummy Home,Dif AVG Score,Dif Pass,Dif Rush,Dif TO,Dif ELO,Dif Win Prob,Dif QB,Dif QB Adj,Dif QB Prob</Value>
+                  <Value name="Omit Constant">False</Value>
+                  <Value name="Use Weights">False</Value>
+                  <Value name="Weight Vec" />
+                  <Value name="regularization">False</Value>
+                  <Value name="alpha">0.5</Value>
+                  <Value name="nfolds">5</Value>
+                  <Value name="lambda">lambda_1se</Value>
+                  <Value name="seed_internal_cv">1</Value>
+                  <Value name="lambda_no_cv">0.5</Value>
+                  <Value name="external_cv">False</Value>
+                  <Value name="nfolds_external">5</Value>
+                  <Value name="numberTrials">3</Value>
+                  <Value name="external_seed_value">1</Value>
+                  <Value name="graph.resolution">1x</Value>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText>Linear_Regression_8</DefaultAnnotationText>
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings Macro="Linear_Regression/Supporting_Macros/Linear_Regression.yxmc" EngineDll="Macro" EngineDllEntryPoint="Linear_Regression/Supporting_Macros/Linear_Regression.yxmc" />
+            </Node>
+            <Node ToolID="10">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+                <Position x="1806" y="222" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <TempFile>C:\Users\szargarz\AppData\Local\Temp\Engine_8388_9e86d241d6e09c4282ff6155a0ccb54b_\Engine_8388_51592613ab6e894a9135a6a5dd720217~.yxdb</TempFile>
+                  <TempFileDataProfiling />
+                  <Layout>
+                    <ViewMode>Single</ViewMode>
+                    <ViewSize value="100" />
+                    <View1>
+                      <DefaultTab>Report</DefaultTab>
+                      <Hints>
+                        <Table />
+                      </Hints>
+                    </View1>
+                    <View2 />
+                  </Layout>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+            </Node>
+            <Node ToolID="11">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+                <Position x="1806" y="282" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <TempFile>C:\Users\szargarz\AppData\Local\Temp\Engine_8388_9e86d241d6e09c4282ff6155a0ccb54b_\Engine_8388_be8b6275b5275b44b55ffb8484f48cd2~.yxdb</TempFile>
+                  <TempFileDataProfiling />
+                  <Layout>
+                    <ViewMode>Single</ViewMode>
+                    <ViewSize value="100" />
+                    <View1>
+                      <DefaultTab>Report</DefaultTab>
+                      <Hints>
+                        <Table />
+                      </Hints>
+                    </View1>
+                    <View2 />
+                  </Layout>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+            </Node>
+          </ChildNodes>
+        </Node>
+        <Node ToolID="17">
+          <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+            <Position x="1530" y="186" width="164" height="24" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Caption>Random Forest</Caption>
+              <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+              <Disabled value="True" />
+              <Folded value="True" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <ChildNodes>
+            <Node ToolID="14">
+              <GuiSettings>
+                <Position x="1710" y="234" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <Value name="Model Name" />
+                  <Value name="Y Var">Dif Result Score</Value>
+                  <Value name="X Vars">R_Team1_Score + R_Team1_Passing + R_Team1_Rushing + R_Team1_Turnovers + R_Team2_Score + R_Team2_Passing + R_Team2_Rushing + R_Team2_Turnovers + elo1 + elo2 + elo_prob1 + elo_prob2 + qb1_value_pre + qb2_value_pre + qb1_adj + qb2_adj + qbelo_prob1 + qbelo_prob2 + quality + importance + total_rating + Dummy Home + Dif AVG Score + Dif Pass + Dif Rush + Dif TO + Dif ELO + Dif Win Prob + Dif QB + Dif QB Adj + Dif QB Prob + Dif Result Score</Value>
+                  <Value name="Num Trees">500</Value>
+                  <Value name="Custom Num Vars">False</Value>
+                  <Value name="Num Vars">3</Value>
+                  <Value name="model.size">False</Value>
+                  <Value name="total.nodes">100</Value>
+                  <Value name="max.depth">10</Value>
+                  <Value name="node.size">5</Value>
+                  <Value name="replace">True</Value>
+                  <Value name="samp.rate">100</Value>
+                  <Value name="inches">True</Value>
+                  <Value name="in.w">5.50</Value>
+                  <Value name="in.h">5.50</Value>
+                  <Value name="centimeters">False</Value>
+                  <Value name="cm.w">13.00</Value>
+                  <Value name="cm.h">14.95</Value>
+                  <Value name="graph.resolution">1x</Value>
+                  <Value name="pointsize">10</Value>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings Macro="Predictive Tools\Forest_Model.yxmc" />
+            </Node>
+            <Node ToolID="15">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+                <Position x="1806" y="246" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <TempFile>C:\Users\szargarz\AppData\Local\Temp\Engine_2416_ab1dd3020a0cc140bec0f09f81f9c5ad_\Engine_2416_72f54e2dbc247a4c9806705528df3faa~.yxdb</TempFile>
+                  <TempFileDataProfiling />
+                  <Layout>
+                    <ViewMode>Single</ViewMode>
+                    <ViewSize value="100" />
+                    <View1>
+                      <DefaultTab>Profile</DefaultTab>
+                      <Hints>
+                        <Table />
+                      </Hints>
+                    </View1>
+                    <View2 />
+                  </Layout>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+            </Node>
+          </ChildNodes>
+        </Node>
+        <Node ToolID="42">
+          <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+            <Position x="1746" y="174" width="136" height="24" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Caption>Linear log</Caption>
+              <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+              <Disabled value="True" />
+              <Folded value="True" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <ChildNodes>
+            <Node ToolID="39">
+              <GuiSettings Plugin="Linear_Regression">
+                <Position x="1770" y="306" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <Value name="curPage">Home</Value>
+                  <Value name="curTab">advanced</Value>
+                  <Value name="standardize_pred">False</Value>
+                  <Value name="internal_cv">True</Value>
+                  <Value name="display_graphs">True</Value>
+                  <Value name="set_seed_internal_cv">True</Value>
+                  <Value name="set_seed_external_cv">True</Value>
+                  <Value name="lambda_1se">False</Value>
+                  <Value name="lambda_min">True</Value>
+                  <Value name="Model Name">Linear_Regression_8</Value>
+                  <Value name="Y Var">Log_score1</Value>
+                  <Value name="X Vars">Log_R_Team1_Score,Log_R_Team1_Passing,Log_R_Team1_Rushing,Log_R_Team1_Turnovers,Log_R_Team2_Score,Log_R_Team2_Passing,Log_R_Team2_Rushing,Log_R_Team2_Turnovers,Log_elo1,Log_elo2,Log_elo_prob1,Log_elo_prob2,Log_qb1_value_pre,Log_qb2_value_pre,Log_qb1_adj,Log_qb2_adj,Log_qbelo_prob1,Log_qbelo_prob2,Log_quality,Log_importance,Log_total_rating</Value>
+                  <Value name="Omit Constant">False</Value>
+                  <Value name="Use Weights">False</Value>
+                  <Value name="Weight Vec" />
+                  <Value name="regularization">False</Value>
+                  <Value name="alpha">0</Value>
+                  <Value name="nfolds">5</Value>
+                  <Value name="lambda">lambda_min</Value>
+                  <Value name="seed_internal_cv">1</Value>
+                  <Value name="lambda_no_cv">0.5</Value>
+                  <Value name="external_cv">False</Value>
+                  <Value name="nfolds_external">5</Value>
+                  <Value name="numberTrials">3</Value>
+                  <Value name="external_seed_value">1</Value>
+                  <Value name="graph.resolution">1x</Value>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText>Linear_Regression_8</DefaultAnnotationText>
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings Macro="Linear_Regression/Supporting_Macros/Linear_Regression.yxmc" EngineDll="Macro" EngineDllEntryPoint="Linear_Regression/Supporting_Macros/Linear_Regression.yxmc" />
+            </Node>
+            <Node ToolID="40">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+                <Position x="1866" y="294" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <TempFile>C:\Users\szargarz\AppData\Local\Temp\Engine_5496_43b9671c77dd6f42ae9552245d73adbd_\Engine_5496_c3ea86370270b64eb8a18865e444d8cd~.yxdb</TempFile>
+                  <TempFileDataProfiling />
+                  <Layout>
+                    <ViewMode>Single</ViewMode>
+                    <ViewSize value="100" />
+                    <View1>
+                      <DefaultTab>Report</DefaultTab>
+                      <Hints>
+                        <Table />
+                      </Hints>
+                    </View1>
+                    <View2 />
+                  </Layout>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+            </Node>
+            <Node ToolID="48">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+                <Position x="1866" y="366" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <TempFile>C:\Users\szargarz\AppData\Local\Temp\Engine_5496_43b9671c77dd6f42ae9552245d73adbd_\Engine_5496_d1772a403d88964791dd7efbd33ddd38~.yxdb</TempFile>
+                  <TempFileDataProfiling />
+                  <Layout>
+                    <ViewMode>Single</ViewMode>
+                    <ViewSize value="100" />
+                    <View1>
+                      <DefaultTab>Report</DefaultTab>
+                      <Hints>
+                        <Table />
+                      </Hints>
+                    </View1>
+                    <View2 />
+                  </Layout>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+            </Node>
+            <Node ToolID="43">
+              <GuiSettings Plugin="Score">
+                <Position x="1866" y="222" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <Value name="modelChoice">Local Model</Value>
+                  <Value name="score field">
+                  </Value>
+                  <Value name="is oversampled">False</Value>
+                  <Value name="oversampled value">
+                  </Value>
+                  <Value name="original percent">2</Value>
+                  <Value name="log y">True</Value>
+                  <Value name="prediction.interval">True</Value>
+                  <Value name="interval.level">95</Value>
+                  <Value name="append.xdf">False</Value>
+                  <Value name="num.records">256000</Value>
+                  <Value name="credentials">
+                  </Value>
+                  <Value name="models">
+                  </Value>
+                  <Value name="page">
+                  </Value>
+                  <Value name="errorStatus">
+                  </Value>
+                  <Value name="modelDetailJSON">
+                  </Value>
+                  <Value name="modelDetails">{"Name":"","Owner":"","Status":"","Id":"","LastDeployment":"","LastUpdated":"","LatestVersion":"","ActiveVersion":"","NumReplications":"","NumVersions":""}</Value>
+                  <Value name="promoteURL">
+                  </Value>
+                  <Value name="username">
+                  </Value>
+                  <Value name="model_name">
+                  </Value>
+                  <Value name="model_owner">
+                  </Value>
+                  <Value name="apiKey">
+                  </Value>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings Macro="Score\Supporting_Macros\score-engine.yxmc" EngineDll="Macro" EngineDllEntryPoint="Score\Supporting_Macros\score-engine.yxmc" />
+            </Node>
+            <Node ToolID="44">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+                <Position x="1962" y="222" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <TempFile>C:\Users\szargarz\AppData\Local\Temp\Engine_5496_43b9671c77dd6f42ae9552245d73adbd_\Engine_5496_ef7a5ebf86427c45889b656a058ad4fa~.yxdb</TempFile>
+                  <TempFileDataProfiling />
+                  <Layout>
+                    <ViewMode>Single</ViewMode>
+                    <ViewSize value="100" />
+                    <View1>
+                      <DefaultTab>Profile</DefaultTab>
+                      <Hints>
+                        <Table />
+                      </Hints>
+                    </View1>
+                    <View2 />
+                  </Layout>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+            </Node>
+          </ChildNodes>
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="66">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="1601" y="305" width="205" height="205" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Linear log</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="61">
+          <GuiSettings Plugin="Linear_Regression">
+            <Position x="1626" y="366" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="curPage">Home</Value>
+              <Value name="curTab">advanced</Value>
+              <Value name="standardize_pred">False</Value>
+              <Value name="internal_cv">True</Value>
+              <Value name="display_graphs">True</Value>
+              <Value name="set_seed_internal_cv">True</Value>
+              <Value name="set_seed_external_cv">True</Value>
+              <Value name="lambda_1se">False</Value>
+              <Value name="lambda_min">True</Value>
+              <Value name="Model Name">Linear_Regression_8</Value>
+              <Value name="Y Var">Log_score1</Value>
+              <Value name="X Vars">quality,importance,total_rating,Dummy Home,SUM R Score,SUM R Pass,SUM R Rush,SUM R TO,Dif AVG Score,Dif Pass,Dif Rush,Dif TO,Dif ELO,Dif Win Prob,Dif QB,Dif QB Adj,Dif QB Prob,Scaled Dif AVG Score,Scaled Dif Pass,Scaled Dif Rush,Scaled Dif TO,Scaled Dif ELO,Scaled Dif Win Prob,Scaled Dif QB,Scaled Dif QB Adj,Scaled Dif QB Prob,Scaled Quality,Scaled importance,Scaled total rating,Log_R_Team1_Score,Log_R_Team1_Passing,Log_R_Team1_Rushing,Log_R_Team1_Turnovers,Log_R_Team2_Score,Log_R_Team2_Passing,Log_R_Team2_Rushing,Log_R_Team2_Turnovers,Log_elo1,Log_elo2,Log_elo_prob1,Log_elo_prob2,Log_qb1_value_pre,Log_qb2_value_pre,Log_qb1_adj,Log_qb2_adj,Log_qbelo_prob1,Log_qbelo_prob2,Log_quality,Log_importance,Log_total_rating,Log_SUM R Score,Log_SUM R Pass,Log_SUM R Rush,Log_SUM R TO,Log_Scaled Dif AVG Score,Log_Scaled Dif Pass,Log_Scaled Dif Rush,Log_Scaled Dif TO,Log_Scaled Dif ELO,Log_Scaled Dif Win Prob,Log_Scaled Dif QB,Log_Scaled Dif QB Adj,Log_Scaled Dif QB Prob,Log_Scaled Quality,Log_Scaled importance,Log_Scaled total rating</Value>
+              <Value name="Omit Constant">False</Value>
+              <Value name="Use Weights">False</Value>
+              <Value name="Weight Vec" />
+              <Value name="regularization">False</Value>
+              <Value name="alpha">0</Value>
+              <Value name="nfolds">5</Value>
+              <Value name="lambda">lambda_min</Value>
+              <Value name="seed_internal_cv">1</Value>
+              <Value name="lambda_no_cv">0.5</Value>
+              <Value name="external_cv">False</Value>
+              <Value name="nfolds_external">5</Value>
+              <Value name="numberTrials">3</Value>
+              <Value name="external_seed_value">1</Value>
+              <Value name="graph.resolution">1x</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Linear_Regression_8</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings Macro="Linear_Regression/Supporting_Macros/Linear_Regression.yxmc" EngineDll="Macro" EngineDllEntryPoint="Linear_Regression/Supporting_Macros/Linear_Regression.yxmc" />
+        </Node>
+        <Node ToolID="62">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="1722" y="354" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\szargarz\AppData\Local\Temp\Engine_1836_b26f1e25912f184fb41a259f5d3095fc_\Engine_1836_bd4df0a536c9c249a198ad55b6d21828~.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Report</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="63">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="1722" y="426" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\szargarz\AppData\Local\Temp\Engine_1836_b26f1e25912f184fb41a259f5d3095fc_\Engine_1836_d3c1b2ad19f7104bba5d635858e1509b~.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Report</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="3" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="3" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Join" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="True" />
+      <Destination ToolID="60" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Output" />
+      <Destination ToolID="21" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Output" />
+      <Destination ToolID="22" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="21" Connection="Output" />
+      <Destination ToolID="22" Connection="Source" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="True" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="True" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="True" />
+      <Destination ToolID="24" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="True" />
+      <Destination ToolID="32" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="True" />
+      <Destination ToolID="36" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="True" />
+      <Destination ToolID="45" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="True" />
+      <Destination ToolID="51" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="True" />
+      <Destination ToolID="55" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="True" />
+      <Destination ToolID="39" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="True" />
+      <Destination ToolID="61" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="True" />
+      <Destination ToolID="67" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="True" />
+      <Destination ToolID="71" Connection="Left Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="61" Connection="Output" />
+      <Destination ToolID="71" Connection="Right Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="False" />
+      <Destination ToolID="74" Connection="Data" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="71" Connection="Output" />
+      <Destination ToolID="74" Connection="Model" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="22" Connection="Output" />
+      <Destination ToolID="23" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="23" Connection="Output" />
+      <Destination ToolID="28" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="28" Connection="Output" />
+      <Destination ToolID="29" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="29" Connection="Output" />
+      <Destination ToolID="31" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="31" Connection="Output" />
+      <Destination ToolID="54" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="54" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="60" Connection="Output" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="67" Connection="Output" />
+      <Destination ToolID="70" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="71" Connection="Reports" />
+      <Destination ToolID="73" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="74" Connection="Output" />
+      <Destination ToolID="75" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="36" Connection="Reports" />
+      <Destination ToolID="37" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="32" Connection="Reports" />
+      <Destination ToolID="33" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="32" Connection="Interactive Report" />
+      <Destination ToolID="34" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="51" Connection="Report" />
+      <Destination ToolID="52" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="55" Connection="Interactive Report" />
+      <Destination ToolID="56" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="55" Connection="Reports" />
+      <Destination ToolID="57" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="45" Connection="Reports" />
+      <Destination ToolID="46" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="24" Connection="Reports" />
+      <Destination ToolID="25" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="24" Connection="Interactive Report" />
+      <Destination ToolID="26" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Reports" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Interactive Report" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Reports" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="39" Connection="Output" />
+      <Destination ToolID="43" Connection="Model" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="39" Connection="Reports" />
+      <Destination ToolID="40" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="39" Connection="Interactive Report" />
+      <Destination ToolID="48" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="43" Connection="Output" />
+      <Destination ToolID="44" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="61" Connection="Reports" />
+      <Destination ToolID="62" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="61" Connection="Interactive Report" />
+      <Destination ToolID="63" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Super Bowl</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="a01f0cfb-5d61-49e3-8e00-f583a0d24e53" />
+      <Telemetry>
+        <PreviousWorkflowId value="91969c35-dcab-4f7a-ad18-760e7d94db1a" />
+        <OriginWorkflowId value="91969c35-dcab-4f7a-ad18-760e7d94db1a" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
